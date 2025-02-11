@@ -1,0 +1,288 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da navbar */
+.navbar {
+    position: sticky; /* Navbar fixa no topo ao rolar a página */
+    top: 0;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;  /* Centraliza o conteúdo */
+    align-items: center;
+    padding: 10px 20px;  /* Ajustando o padding para reduzir o tamanho da navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif;  /* Fonte igual ao footer */
+}
+
+/* Estilo para a imagem do logo */
+.logo-img {
+    width: 45px;  /* Definindo a largura da imagem para 45px */
+    height: 45px; /* Definindo a altura da imagem para 45px */
+}
+
+/* Centralizando o conteúdo da navbar */
+.navbar-content {
+    text-align: center;  /* Centraliza o conteúdo */
+}
+
+/* Título "Bruxo Guarujá" */
+.navbar-content h1 {
+    font-size: 32px;  /* Tamanho maior para o título */
+    color: #bedcf8; /* Cor azulada para o título */
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto "Consultas e Amarração Amorosa" */
+.navbar-content p {
+    font-size: 16px;  /* Tamanho médio para o texto "Consultas e amarração amorosa" */
+    margin-bottom: 5px;
+}
+
+/* Texto pequeno para "Búzios, Cartas Ciganas, Limpezas e Abertura de Caminhos" */
+.navbar-content .small-text {
+    font-size: 12px;  /* Texto menor para "Búzios, Cartas Ciganas..." */
+    margin-bottom: 10px;
+}
+
+/* Estilo do telefone */
+.navbar-content .phone {
+    font-size: 16px;  /* Tamanho do telefone */
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: white;  /* Cor branca para o texto */
+}
+
+.navbar-content .phone i {
+    margin-right: 8px;  /* Espaçamento entre o ícone e o número */
+}
+
+/* Estilo para o ícone de telefone */
+.navbar-content .phone i {
+    font-size: 18px;  /* Tamanho do ícone */
+    color: white;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo comum para as divs de conteúdo */
+.content {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    flex-direction: column;  /* Centraliza a imagem e o texto */
+    transition: flex-direction 0.3s ease-in-out;
+}
+
+/* Estilo da imagem */
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do texto */
+.text {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos para o botão fixo */
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, bottom 0.3s;
+    z-index: 999;
+    display: flex;
+    flex-direction: column; /* Coloca o logo e o texto em coluna */
+    align-items: center;    /* Centraliza o logo e o texto */
+}
+
+.whatsapp-icon {
+    width: 40px;  /* Tamanho do logotipo do WhatsApp */
+    height: auto;
+    margin-bottom: 5px; /* Espaço entre o logo e o texto */
+}
+
+.button-text {
+    font-size: 14px; /* Tamanho do texto */
+}
+
+.fixed-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 60px; /* Adiciona um espaço para o botão não se sobrepor ao rodapé */
+    font-family: 'Arial', sans-serif; /* Fonte igual ao header */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #bedcf8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #bedcf8;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.footer-credit {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Responsividade - Empilhar conteúdo em telas pequenas */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar-content h1 {
+        font-size: 28px;
+    }
+
+    .navbar-content p {
+        font-size: 14px;
+    }
+
+    .navbar-content .small-text {
+        font-size: 10px;
+    }
+
+    .navbar-content .phone {
+        font-size: 14px;
+    }
+
+    .navbar-content .phone i {
+        font-size: 16px;
+    }
+
+    /* Adicionando um espaçamento entre o logo e os links no menu */
+    .navbar .logo {
+        margin-bottom: 15px;  /* Ajusta o espaçamento entre o logo e o menu */
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        flex: 1;
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    /* Ajuste do tamanho da imagem */
+    .image img {
+        max-width: 100%;
+    }
+}
+
+/* Responsividade para telas maiores (maiores que 768px) */
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .footer-section {
+        flex: 1;
+        margin: 0 20px;
+    }
+}
+
+/* Atualização do tamanho dos ícones de contato no footer */
+.social-icon {
+    width: 30px;  /* Retorno ao tamanho original de 30px */
+    height: 30px; /* Retorno ao tamanho original de 30px */
+}
