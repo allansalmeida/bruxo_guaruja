@@ -80,6 +80,15 @@
     padding: 20px;
 }
 
+/* Estilo para os H2 dentro da classe container */
+.container h2 {
+    font-weight: bold; /* Negrito para o texto */
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor das letras */
+    padding: 10px 20px; /* Adiciona um pouco de espaço nas bordas */
+    margin: 0 -20px; /* Remove a margem extra nas laterais */
+}
+
 /* Estilo comum para as divs de conteúdo */
 .content {
     display: flex;
