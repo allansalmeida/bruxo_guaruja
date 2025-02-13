@@ -338,6 +338,17 @@ hr {
     color: #666; /* Cor do ícone */
 }
 
+
+/* Estilizando o iframe para ser responsivo */
+.maps iframe {
+    width: 100%; /* Ocupa 100% da largura do container */
+    max-width: 100%; /* Garante que o iframe não ultrapasse a largura máxima */
+    height: 450px; /* Mantém a altura anterior */
+    border: none; /* Remove as bordas do iframe */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura total */
+}
+
+
 /* Alterações de responsividade */
 @media (max-width: 480px) {
     .navbar {
