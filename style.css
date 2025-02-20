@@ -41,7 +41,8 @@
 
 /* Estilo para a imagem do logo */
 .logo-img {
-    width: 20%; /* Ajuste o tamanho conforme necessário */
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Garante que a imagem seja tratada como um bloco */
     margin: auto; /* Centraliza a imagem horizontalmente */
