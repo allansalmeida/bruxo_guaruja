@@ -21,10 +21,32 @@
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para a navbar */
 }
 
+/* Estilo texto do menu */
+.navbar h2 {
+    font-size: 150%;  /* Tamanho do texto do menu */
+    margin-right: auto;  /* Alinha o texto à esquerda */
+    font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o texto do menu */
+    padding-bottom: 5px;  /* Adiciona um pouco de espaço abaixo do texto */
+    padding-top: 10px;  /* Adiciona um pouco de espaço acima do texto */
+    font-weight: normal;
+}
+
+.navbar h3 {
+    font-size: 100%;  /* Tamanho do texto do menu */
+    margin-right: auto;  /* Alinha o texto à esquerda */
+    font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o texto do menu */
+    padding-bottom: 10px;  /* Adiciona um pouco de espaço abaixo do texto */
+    font-weight: normal;
+}
+
 /* Estilo para a imagem do logo */
 .logo-img {
-    width: 45px;  /* Definindo a largura da imagem para 45px */
-    height: 45px; /* Definindo a altura da imagem para 45px */
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+    justify-content: center;
 }
 
 /* Centralizando o conteúdo da navbar */
