@@ -23,8 +23,12 @@
 
 /* Estilo para a imagem do logo */
 .logo-img {
-    width: 45px;  /* Definindo a largura da imagem para 45px */
-    height: 45px; /* Definindo a altura da imagem para 45px */
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+    justify-content: center;
 }
 
 /* Centralizando o conteúdo da navbar */
@@ -36,21 +40,21 @@
 /* Título "Bruxo Guarujá" */
 .navbar-content h1 {
     font-size: 32px;  /* Tamanho maior para o título */
-    color: #bedcf8; /* Cor azulada para o título */
+    color: #ffffff; /* Cor azulada para o título */
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o título */
 }
 
 /* Estilo do texto "Consultas e Amarração Amorosa" */
 .navbar-content p {
-    font-size: 16px;  /* Tamanho médio para o texto "Consultas e amarração amorosa" */
+    font-size: 24px;  /* Tamanho médio para o texto "Consultas e amarração amorosa" */
     margin-bottom: 5px;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o texto */
 }
 
 /* Texto pequeno para "Búzios, Cartas Ciganas, Limpezas e Abertura de Caminhos" */
 .navbar-content .small-text {
-    font-size: 12px;  /* Texto menor para "Búzios, Cartas Ciganas..." */
+    font-size: 20px;  /* Texto menor para "Búzios, Cartas Ciganas..." */
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o texto pequeno */
 }
@@ -60,6 +64,7 @@
     color: white;  /* Cor branca para o telefone */
     text-decoration: none;  /* Remove o sublinhado do link */
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o telefone */
+    font-size: 20px;
 }
 
 .navbar-content .phone-number a:hover {
@@ -67,19 +72,13 @@
     text-decoration: none;  /* Garante que o sublinhado não apareça ao passar o mouse */
 }
 
-.navbar-content .phone i {
-    margin-right: 8px;  /* Espaçamento entre o ícone e o número */
-    font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o ícone */
+
+body {
+    font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o corpo do site */
+    line-height: 1.6;  /* Espaçamento entre as linhas */
+    background-color: lightgray;  /* Cor de fundo do corpo */
+    color: #333;  /* Cor do texto */
 }
-
-/* Estilo para o ícone de telefone */
-.navbar-content .phone i {
-    font-size: 18px;  /* Tamanho do ícone */
-    color: white;
-    font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o ícone */
-}
-
-
 
 /* Container principal */
 .container {
@@ -88,7 +87,7 @@
     margin: 0 auto;
     padding: 20px;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o container */
-    background-color: lightgray;   /* Cor de fundo para o corpo da página */
+    
 }
 
 /* Estilo para os H2 dentro da classe container */
@@ -123,11 +122,13 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px1;
+    margin-bottom: 10px;
+
 }
 
 /* Estilo do texto */
 .text {
+    width: 100%;
     flex: 2;
     padding: 0 20px 20px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -146,6 +147,7 @@ p {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o parágrafo */
     margin-top: 10px;
+    min-height: 30px;
 }
 
 /* Estilos para o botão fixo */
@@ -296,7 +298,7 @@ p {
 hr {
     clear: both;
     border-bottom: 0;
-    border-top: 1px dotted #ccc;
+    border-top: 1px dotted #000000;
     border-right: 0;
     border-left: 0;
     margin: 30px 0;
