@@ -79,6 +79,8 @@
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o ícone */
 }
 
+
+
 /* Container principal */
 .container {
     width: 100%;
@@ -86,6 +88,7 @@
     margin: 0 auto;
     padding: 20px;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o container */
+    background-color: lightgray;   /* Cor de fundo para o corpo da página */
 }
 
 /* Estilo para os H2 dentro da classe container */
@@ -120,14 +123,16 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px1;
 }
 
 /* Estilo do texto */
 .text {
     flex: 2;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o texto */
+    background-color: white;
 }
 
 h2 {
@@ -140,6 +145,7 @@ p {
     font-size: 16px;
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o parágrafo */
+    margin-top: 10px;
 }
 
 /* Estilos para o botão fixo */
