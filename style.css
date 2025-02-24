@@ -98,6 +98,7 @@ body {
     padding: 10px 20px; /* Adiciona um pouco de espaço nas bordas */
     margin: 0 -20px; /* Remove a margem extra nas laterais */
     font-family: 'Roboto', sans-serif;  /* Fonte Roboto para o H2 */
+    text-align: center;
 }
 
 /* Estilo comum para as divs de conteúdo */
